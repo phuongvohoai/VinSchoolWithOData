@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{9507BA42-C9AC-4751-A8F7-4D747364F2F2}|Default">
+  <MonoDevelop.Ide.ItemProperties.VinSchool.Api FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="VinSchool.Api/Program.cs">
+    <Files>
+      <File FileName="VinSchool.Api/Program.cs" Line="14" Column="18" />
+      <File FileName="VinSchool.Api/Common/IWebHostExtensions.cs" Line="14" Column="65" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
