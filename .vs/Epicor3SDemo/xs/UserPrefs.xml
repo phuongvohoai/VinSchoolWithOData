@@ -1,20 +1,11 @@
 ﻿<Properties StartupConfiguration="{9507BA42-C9AC-4751-A8F7-4D747364F2F2}|Default">
   <MonoDevelop.Ide.ItemProperties.Epicor3S.WebApi PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Epicor3S.EntityFrameworkCore/Services/SchoolService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Epicor3S.WebApi/Startup.cs">
     <Files>
-      <File FileName="Epicor3S.Core/Models/School.cs" Line="13" Column="39" />
-      <File FileName="Epicor3S.Core/Models/Student.cs" Line="5" Column="25" />
       <File FileName="Epicor3S.WebApi/Common/IWebHostExtensions.cs" Line="1" Column="1" />
-      <File FileName="Epicor3S.WebApi/Controllers/SchoolsController.cs" Line="6" Column="1" />
-      <File FileName="Epicor3S.WebApi/Migrations/VinSchoolDbContextMigrator.cs" Line="5" Column="27" />
-      <File FileName="Epicor3S.WebApi/Controllers/ValuesController.cs" Line="1" Column="1" />
-      <File FileName="Epicor3S.Core/Services/ISchoolService.cs" Line="13" Column="31" />
-      <File FileName="Epicor3S.Core/Dtos/SchoolDto.cs" Line="7" Column="1" />
-      <File FileName="Epicor3S.WebApi/Startup.cs" Line="28" Column="52" />
-      <File FileName="Epicor3S.WebApi/Program.cs" Line="4" Column="14" />
-      <File FileName="Epicor3S.EntityFrameworkCore/Services/SchoolService.cs" Line="39" Column="10" />
-      <File FileName="Epicor3S.Core/MapperProfiles/Epicor3SProfile.cs" Line="16" Column="1" />
-      <File FileName="Epicor3S.EntityFrameworkCore/Repositories/Epicor3SDbContext.cs" Line="19" Column="13" />
+      <File FileName="Epicor3S.WebApi/Migrations/VinSchoolDbContextMigrator.cs" Line="26" Column="10" />
+      <File FileName="Epicor3S.WebApi/Constant/HttpClientNames.cs" Line="3" Column="40" />
+      <File FileName="Epicor3S.WebApi/Startup.cs" Line="41" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
@@ -22,6 +13,7 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/kevin/Workspaces/VinSchoolWithOData/VinSchool.Api/Controllers/StudentsController.cs" relfile="VinSchool.Api/Controllers/StudentsController.cs" line="22" column="1" />
+      <Breakpoint file="/Users/kevin/Workspaces/VinSchoolWithOData/Epicor3S.WebApi/Migrations/VinSchoolDbContextMigrator.cs" relfile="Epicor3S.WebApi/Migrations/VinSchoolDbContextMigrator.cs" line="27" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Epicor3S.Core.Models;
 using Epicor3S.EntityFrameworkCore.Repositories;
+using Epicor3S.WebApi.Constant;
+using Microsoft.Extensions.DependencyInjection;
+using Newtonsoft.Json;
 
 namespace Epicor3S.WebApi.Migrations
 {
@@ -13,26 +17,32 @@ namespace Epicor3S.WebApi.Migrations
         {
             if (dbContext.Schools.Count() == 0)
             {
-                await dbContext.Schools.AddRangeAsync(GetDummySchools());
+                await dbContext.Schools.AddRangeAsync(await GetSchoolsAsync(serviceProvider));
                 await dbContext.SaveChangesAsync();
             }
         }
 
-        private static IList<School> GetDummySchools()
+        private static async Task<IList<School>> GetSchoolsAsync(IServiceProvider serviceProvider)
         {
-            return new List<School>
+
+            var schools = new List<School>();
+            var httpClientFactory = serviceProvider.GetService<IHttpClientFactory>();
+            var httpClient = httpClientFactory.CreateClient(HttpClientNames.CodeOrgClient);
+            var apiResponse = await httpClient.GetAsync("schools.json");
+            dynamic jsonData = JsonConvert.DeserializeObject<dynamic>(await apiResponse.Content.ReadAsStringAsync());
+
+            foreach (var school in jsonData.schools)
             {
-                new School
+                schools.Add(new School
                 {
-                    Name = "School Test",
-                    Website = "http://schooltest.com"
-                },
-                new School
-                {
-                     Name = "Groo Education",
-                    Website = "http://groo-education.com"
-                }
-            };
+                    Name = school.name,
+                    Website = school.website
+                });
+            }
+
+            return schools;
+
+
         }
     }
 }
