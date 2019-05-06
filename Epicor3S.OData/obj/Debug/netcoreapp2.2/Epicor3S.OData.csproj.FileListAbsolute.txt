@@ -1,0 +1,9 @@
+/Users/kevin/Workspaces/VinSchoolWithOData/Epicor3S.OData/bin/Debug/netcoreapp2.2/Epicor3S.OData.deps.json
+/Users/kevin/Workspaces/VinSchoolWithOData/Epicor3S.OData/bin/Debug/netcoreapp2.2/Epicor3S.OData.dll
+/Users/kevin/Workspaces/VinSchoolWithOData/Epicor3S.OData/bin/Debug/netcoreapp2.2/Epicor3S.OData.pdb
+/Users/kevin/Workspaces/VinSchoolWithOData/Epicor3S.OData/obj/Debug/netcoreapp2.2/Epicor3S.OData.csprojAssemblyReference.cache
+/Users/kevin/Workspaces/VinSchoolWithOData/Epicor3S.OData/obj/Debug/netcoreapp2.2/Epicor3S.OData.csproj.CoreCompileInputs.cache
+/Users/kevin/Workspaces/VinSchoolWithOData/Epicor3S.OData/obj/Debug/netcoreapp2.2/Epicor3S.OData.AssemblyInfoInputs.cache
+/Users/kevin/Workspaces/VinSchoolWithOData/Epicor3S.OData/obj/Debug/netcoreapp2.2/Epicor3S.OData.AssemblyInfo.cs
+/Users/kevin/Workspaces/VinSchoolWithOData/Epicor3S.OData/obj/Debug/netcoreapp2.2/Epicor3S.OData.dll
+/Users/kevin/Workspaces/VinSchoolWithOData/Epicor3S.OData/obj/Debug/netcoreapp2.2/Epicor3S.OData.pdb

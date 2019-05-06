@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epicor3S.WebApi", "Epicor3S.WebApi\Epicor3S.WebApi.csproj", "{9507BA42-C9AC-4751-A8F7-4D747364F2F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epicor3S.Core", "Epicor3S.Core\Epicor3S.Core.csproj", "{52B3856E-2F7C-41BE-9F35-4796C3FD3AFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epicor3S.EntityFrameworkCore", "Epicor3S.EntityFrameworkCore\Epicor3S.EntityFrameworkCore.csproj", "{0D7C0EA6-9BB7-4B85-8772-17C818E198FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epicor3S.OData", "Epicor3S.OData\Epicor3S.OData.csproj", "{547FF3EC-6E34-4F5F-B5F9-B1A454C003F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9507BA42-C9AC-4751-A8F7-4D747364F2F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9507BA42-C9AC-4751-A8F7-4D747364F2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9507BA42-C9AC-4751-A8F7-4D747364F2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9507BA42-C9AC-4751-A8F7-4D747364F2F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52B3856E-2F7C-41BE-9F35-4796C3FD3AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B3856E-2F7C-41BE-9F35-4796C3FD3AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B3856E-2F7C-41BE-9F35-4796C3FD3AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B3856E-2F7C-41BE-9F35-4796C3FD3AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7C0EA6-9BB7-4B85-8772-17C818E198FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7C0EA6-9BB7-4B85-8772-17C818E198FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7C0EA6-9BB7-4B85-8772-17C818E198FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7C0EA6-9BB7-4B85-8772-17C818E198FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{547FF3EC-6E34-4F5F-B5F9-B1A454C003F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{547FF3EC-6E34-4F5F-B5F9-B1A454C003F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{547FF3EC-6E34-4F5F-B5F9-B1A454C003F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{547FF3EC-6E34-4F5F-B5F9-B1A454C003F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

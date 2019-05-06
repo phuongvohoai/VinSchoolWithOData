@@ -1,0 +1,14 @@
+/Users/kevin/Workspaces/VinSchoolWithOData/VinSchool.Api/obj/Debug/netcoreapp2.2/VinSchool.Api.csprojAssemblyReference.cache
+/Users/kevin/Workspaces/VinSchoolWithOData/VinSchool.Api/obj/Debug/netcoreapp2.2/VinSchool.Api.csproj.CoreCompileInputs.cache
+/Users/kevin/Workspaces/VinSchoolWithOData/VinSchool.Api/obj/Debug/netcoreapp2.2/VinSchool.Api.RazorAssemblyInfo.cache
+/Users/kevin/Workspaces/VinSchoolWithOData/VinSchool.Api/obj/Debug/netcoreapp2.2/VinSchool.Api.RazorAssemblyInfo.cs
+/Users/kevin/Workspaces/VinSchoolWithOData/VinSchool.Api/obj/Debug/netcoreapp2.2/VinSchool.Api.AssemblyInfoInputs.cache
+/Users/kevin/Workspaces/VinSchoolWithOData/VinSchool.Api/obj/Debug/netcoreapp2.2/VinSchool.Api.AssemblyInfo.cs
+/Users/kevin/Workspaces/VinSchoolWithOData/VinSchool.Api/bin/Debug/netcoreapp2.2/VinSchool.Api.deps.json
+/Users/kevin/Workspaces/VinSchoolWithOData/VinSchool.Api/bin/Debug/netcoreapp2.2/VinSchool.Api.runtimeconfig.json
+/Users/kevin/Workspaces/VinSchoolWithOData/VinSchool.Api/bin/Debug/netcoreapp2.2/VinSchool.Api.runtimeconfig.dev.json
+/Users/kevin/Workspaces/VinSchoolWithOData/VinSchool.Api/bin/Debug/netcoreapp2.2/VinSchool.Api.dll
+/Users/kevin/Workspaces/VinSchoolWithOData/VinSchool.Api/bin/Debug/netcoreapp2.2/VinSchool.Api.pdb
+/Users/kevin/Workspaces/VinSchoolWithOData/VinSchool.Api/obj/Debug/netcoreapp2.2/VinSchool.Api.RazorTargetAssemblyInfo.cache
+/Users/kevin/Workspaces/VinSchoolWithOData/VinSchool.Api/obj/Debug/netcoreapp2.2/VinSchool.Api.dll
+/Users/kevin/Workspaces/VinSchoolWithOData/VinSchool.Api/obj/Debug/netcoreapp2.2/VinSchool.Api.pdb
