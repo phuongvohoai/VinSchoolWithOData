@@ -3,7 +3,9 @@ using Epicor3S.Core.MapperProfiles;
 using Epicor3S.Core.Services;
 using Epicor3S.EntityFrameworkCore.Repositories;
 using Epicor3S.EntityFrameworkCore.Services;
+using Epicor3S.OData;
 using Epicor3S.WebApi.Constant;
+using Microsoft.AspNet.OData.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -42,6 +44,9 @@ namespace Epicor3S.WebApi
             {
                 c.BaseAddress = new System.Uri("https://code.org/");
             });
+
+            // Register Odata
+            services.AddOData();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,7 +63,10 @@ namespace Epicor3S.WebApi
             }
 
             app.UseHttpsRedirection();
-            app.UseMvc();
+            app.UseMvc(b =>
+            {
+                b.MapODataServiceRoute("odata", "odata", EdmModelBuilder.GetEdmModel());
+            });
         }
     }
 }
