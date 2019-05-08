@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Epicor3S.Core.Dtos;
+using Epicor3S.WebApi.Dtos;
 
-namespace Epicor3S.Core.Services
+namespace Epicor3S.WebApi.Services.Interfaces
 {
     public interface ISchoolService
     {

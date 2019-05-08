@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using Epicor3S.EntityFrameworkCore.Repositories;
+using Epicor3S.EntityFrameworkCore.Database;
 using Epicor3S.WebApi.Common;
 using Epicor3S.WebApi.Migrations;
 using Microsoft.AspNetCore;

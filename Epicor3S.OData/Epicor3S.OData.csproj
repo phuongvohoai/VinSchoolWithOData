@@ -9,5 +9,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Epicor3S.Core\Epicor3S.Core.csproj" />
+    <ProjectReference Include="..\Epicor3S.EntityFrameworkCore\Epicor3S.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 </Project>

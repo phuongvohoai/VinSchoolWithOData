@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "30dc143773b8b34ba5f4358d5cbc45310e862aac"
+    "signature": "b4360d0a8b17cfc5ec867463099ff19235ecb22b"
   },
   "compilationOptions": {
     "defines": [
@@ -70,6 +70,22 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
+      "Microsoft.AspNetCore.OData/7.1.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection": "2.2.0",
+          "Microsoft.OData.Core": "7.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.OData.dll": {
+            "assemblyVersion": "7.1.0.21120",
+            "fileVersion": "7.1.0.21120"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.OData.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore/2.2.4": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "2.2.4",
@@ -105,6 +121,43 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/2.2.4": {},
+      "Microsoft.OData.Core/7.5.0": {
+        "dependencies": {
+          "Microsoft.OData.Edm": "7.5.0",
+          "Microsoft.Spatial": "7.5.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.OData.Core.dll": {
+            "assemblyVersion": "7.5.0.20627",
+            "fileVersion": "7.5.0.20627"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.OData.Core.dll": {}
+        }
+      },
+      "Microsoft.OData.Edm/7.5.0": {
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.OData.Edm.dll": {
+            "assemblyVersion": "7.5.0.20627",
+            "fileVersion": "7.5.0.20627"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.OData.Edm.dll": {}
+        }
+      },
+      "Microsoft.Spatial/7.5.0": {
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Spatial.dll": {
+            "assemblyVersion": "7.5.0.20627",
+            "fileVersion": "7.5.0.20627"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.Spatial.dll": {}
+        }
+      },
       "Polly/7.1.0": {
         "runtime": {
           "lib/netstandard2.0/Polly.dll": {
@@ -188,6 +241,11 @@
         }
       },
       "Epicor3S.OData/1.0.0": {
+        "dependencies": {
+          "Epicor3S.Core": "1.0.0",
+          "Epicor3S.EntityFrameworkCore": "1.0.0",
+          "Microsoft.AspNetCore.OData": "7.1.0"
+        },
         "runtime": {
           "Epicor3S.OData.dll": {}
         },
@@ -3343,6 +3401,13 @@
       "path": "automapper.extensions.microsoft.dependencyinjection/6.1.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.6.1.0.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.OData/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-klDVC2zGbHGXJHxGnWs7VYbeDNgTD2HJIuKpziSBg1K7itXep4Mh+g6JeVZckh5OAqJf+N2N2BXvsLlxN4p3XA==",
+      "path": "microsoft.aspnetcore.odata/7.1.0",
+      "hashPath": "microsoft.aspnetcore.odata.7.1.0.nupkg.sha512"
+    },
     "Microsoft.EntityFrameworkCore/2.2.4": {
       "type": "package",
       "serviceable": true,
@@ -3363,6 +3428,27 @@
       "sha512": "sha512-7rejM6oRqUqNrj1BK4ico0Fb6XMADNn6lqPgYGYg49vJqA0NWxbavLUkMPzcPR0AYznPbHFQPuNHqT6JfCM+kA==",
       "path": "microsoft.entityframeworkcore.analyzers/2.2.4",
       "hashPath": "microsoft.entityframeworkcore.analyzers.2.2.4.nupkg.sha512"
+    },
+    "Microsoft.OData.Core/7.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ghfBHBOUbcz4AcPgxo8w2/qtI+GrosRwQfT9LTagAxyARLDk6tbsFbYTJ2IJF2TJ24BlQfj6wsi6JHprMdO7VQ==",
+      "path": "microsoft.odata.core/7.5.0",
+      "hashPath": "microsoft.odata.core.7.5.0.nupkg.sha512"
+    },
+    "Microsoft.OData.Edm/7.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jz/mqJdA80t628LXJYumsVO8sY1y8fnfCUU1+dN5UJRB1ICEc+z6ZtpGPG8KLUvREipGy/Va7EKslyJCAYe6QA==",
+      "path": "microsoft.odata.edm/7.5.0",
+      "hashPath": "microsoft.odata.edm.7.5.0.nupkg.sha512"
+    },
+    "Microsoft.Spatial/7.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zga9GToq8/m65bI1xyRDxPgt3xA3O0lTMwBo/seCknpKSU16UJJ2k8AQ1xP66yUYonoBPX4GlwQow8avLbocMw==",
+      "path": "microsoft.spatial/7.5.0",
+      "hashPath": "microsoft.spatial.7.5.0.nupkg.sha512"
     },
     "Polly/7.1.0": {
       "type": "package",

@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Epicor3S.Core.Models;
 
-namespace Epicor3S.EntityFrameworkCore.Repositories
+namespace Epicor3S.EntityFrameworkCore.Database
 {
     public class Epicor3SDbContext : DbContext
     {

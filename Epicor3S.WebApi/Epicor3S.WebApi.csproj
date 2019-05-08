@@ -17,8 +17,9 @@
   <ItemGroup>
     <Folder Include="Common\" />
     <Folder Include="Migrations\" />
-    <Folder Include="Extensions\" />
     <Folder Include="Constant\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Interfaces\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Epicor3S.Core\Epicor3S.Core.csproj" />

@@ -7,3 +7,8 @@
 /Users/kevin/Workspaces/VinSchoolWithOData/Epicor3S.OData/obj/Debug/netcoreapp2.2/Epicor3S.OData.AssemblyInfo.cs
 /Users/kevin/Workspaces/VinSchoolWithOData/Epicor3S.OData/obj/Debug/netcoreapp2.2/Epicor3S.OData.dll
 /Users/kevin/Workspaces/VinSchoolWithOData/Epicor3S.OData/obj/Debug/netcoreapp2.2/Epicor3S.OData.pdb
+/Users/kevin/Workspaces/VinSchoolWithOData/Epicor3S.OData/bin/Debug/netcoreapp2.2/Epicor3S.Core.dll
+/Users/kevin/Workspaces/VinSchoolWithOData/Epicor3S.OData/bin/Debug/netcoreapp2.2/Epicor3S.Core.pdb
+/Users/kevin/Workspaces/VinSchoolWithOData/Epicor3S.OData/obj/Debug/netcoreapp2.2/Epicor3S.OData.csproj.CopyComplete
+/Users/kevin/Workspaces/VinSchoolWithOData/Epicor3S.OData/bin/Debug/netcoreapp2.2/Epicor3S.EntityFrameworkCore.dll
+/Users/kevin/Workspaces/VinSchoolWithOData/Epicor3S.OData/bin/Debug/netcoreapp2.2/Epicor3S.EntityFrameworkCore.pdb

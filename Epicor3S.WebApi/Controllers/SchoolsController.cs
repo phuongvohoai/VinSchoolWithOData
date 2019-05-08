@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Epicor3S.Core.Dtos;
-using Epicor3S.Core.Services;
+using Epicor3S.WebApi.Dtos;
+using Epicor3S.WebApi.Services.Interfaces;
+using Microsoft.AspNet.OData;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Epicor3S.WebApi.Controllers
@@ -18,7 +19,8 @@ namespace Epicor3S.WebApi.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<SchoolDto>> GetStudents()
+        [EnableQuery()]
+        public async Task<IEnumerable<SchoolDto>> GetSchools()
         {
             return await _schoolService.GetSchoolsAsync();
         }
@@ -33,7 +35,6 @@ namespace Epicor3S.WebApi.Controllers
             }
 
             return student;
-
         }
     }
 }

@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Epicor3S.Core.Dtos;
+using Epicor3S.WebApi.Dtos;
 using Epicor3S.Core.Models;
 
 namespace Epicor3S.Core.MapperProfiles

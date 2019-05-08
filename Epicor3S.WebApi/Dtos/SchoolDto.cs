@@ -1,4 +1,4 @@
-﻿namespace Epicor3S.Core.Dtos
+﻿namespace Epicor3S.WebApi.Dtos
 {
     public class SchoolDto
     {

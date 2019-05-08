@@ -4,7 +4,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Epicor3S.Core.Models;
-using Epicor3S.EntityFrameworkCore.Repositories;
+using Epicor3S.EntityFrameworkCore.Database;
 using Epicor3S.WebApi.Constant;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
