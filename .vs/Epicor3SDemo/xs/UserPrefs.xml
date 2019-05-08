@@ -1,12 +1,14 @@
 ﻿<Properties StartupConfiguration="{9507BA42-C9AC-4751-A8F7-4D747364F2F2}|Default">
   <MonoDevelop.Ide.ItemProperties.Epicor3S.WebApi PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Epicor3S.WebApi/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Epicor3S.WebApi/Controllers/SchoolsController.cs">
     <Files>
       <File FileName="Epicor3S.WebApi/MapperProfiles/Epicor3SProfile.cs" Line="15" Column="2" />
       <File FileName="Epicor3S.EntityFrameworkCore/Repositories/SchoolRepository.cs" Line="1" Column="1" />
       <File FileName="Epicor3S.OData/Controllers/SchoolsODataController.cs" Line="3" Column="25" />
       <File FileName="Epicor3S.WebApi/Migrations/VinSchoolDbContextMigrator.cs" Line="6" Column="28" />
-      <File FileName="Epicor3S.WebApi/Program.cs" Line="3" Column="1" />
+      <File FileName="Epicor3S.WebApi/Program.cs" Line="13" Column="10" />
+      <File FileName="Epicor3S.WebApi/Startup.cs" Line="78" Column="17" />
+      <File FileName="Epicor3S.WebApi/Controllers/SchoolsController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

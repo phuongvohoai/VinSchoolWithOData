@@ -75,11 +75,11 @@ namespace Epicor3S.WebApi
             app.UseMvc(routeBuilder =>
             {
                 // Build OData on existing api
-                //routeBuilder.EnableDependencyInjection();
-                //routeBuilder.Expand().Select().Count().OrderBy();
+                routeBuilder.EnableDependencyInjection();
+                routeBuilder.Expand().Select().Count().OrderBy();
 
                 // Build OData with edm model
-                routeBuilder.MapODataServiceRoute("odata", "odata", edmModelBuilder.GetEdmModel());
+                //routeBuilder.MapODataServiceRoute("odata", "odata", edmModelBuilder.GetEdmModel());
             });
         }
     }
